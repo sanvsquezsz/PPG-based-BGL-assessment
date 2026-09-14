@@ -1,4 +1,4 @@
-# PPG-based-multisite-glucose-assessment
+# PPG-based-MG-assessment
 This data set contains PPG recordings from...
 
 ## When using this resource, please cite the original publication:
