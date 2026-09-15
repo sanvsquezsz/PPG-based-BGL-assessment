@@ -46,7 +46,7 @@ The dataset is distributed in three formats:
 
      
 ## Contributors
-For more information about the dataset, please contact the autors at:  santiago.vasquez01@usc.edu.co and erick.arguello00@usc.edu.co.
+For more information about the dataset, please contact the autors at:  santiago.vasquez.salazar@correounivalle.edu.co and erick.arguello@unimilitar.edu.co.
 
 ## Conflicts of interest
 The autors have no conflicts of interest to declare.
