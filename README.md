@@ -24,7 +24,15 @@ The three PPG sensors were adapted to provide a secure and stable attachment at 
 * **Finger:** the sensor was placed inside a commercial adult finger pulse oximeter clamp (Nellcor™, model DS-100A, with the original electronic circuitry removed).
 
 ## Description of subjects
+20 subjects participated in the study. All volunteers were fully informed about the experimental procedure and provided written informed consent. The study included healthy (n = 15), prediabetic (n = 1), and diabetic (n = 4) adults aged 18 years or older. The participants' ages ranged from 21 to 76 years, with a mean ± standard deviation of 40.04 ± 17.56 years. Participants were included regardless of ethnicity, race, or gender. The male-to-female ratio in the sample was 1:1
 
+The demographic and reference information for each participant is provided in the MS Excel file, "[filename].xlsx", and is summarized as follows:
+  - Record #: name of the record associated with each individual, 'PPG_subj_##" (where ## is the subject number).
+  - Age: range between 21 - 76 years old.
+  - Gender: Male or Female.
+  - Category: participant category, defined as Non-diabetic, Prediabetic, or Diabetic (Type 2).
+  - BGL: reference blood glucose level measured using the reference glucometer, expressed in mg/dL.
+    
 ## Background of glucose classification
 
 
