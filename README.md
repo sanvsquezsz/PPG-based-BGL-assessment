@@ -1,11 +1,15 @@
 # PPG-based-MG-assessment
-This data set contains PPG recordings from...
+This data set contains a multisite photoplethysmography (PPG) recordings from 21 subjects who were not hospitalized during data collection. This data set is intended to support the development of approaches for blood glucose level (BGL) estimation by analyzing PPG signals. The data comprises PPG recordings obtained simultaneously from three anatomical sites: the forehead, earlobe, and finger.
 
 ## When using this resource, please cite the original publication:
 S. Vasquez Salazar and E. J. Argüello-Prada, «PPG-based multisite glucose assessment dataset,» September 14st 2026. [Online]. Available: https://github.com/sanvsquezsz/PPG-based-multisite-glucose-assessment.
 
 ## Data Collection
-The data were obtained ...
+The data were obtained on an outpatient basis, i.e., none of the individuals were hospitalized, and data collection was performed in a laboratory. Before the experiment, all participants were instructed to refrain from eating or drinking for at least 2 hours.
+
+Upon arrival at the laboratory, each volunteer was comfortably seated in a chair with a backrest. A 5-min stabilization period was allowed for the participant's heart rate to stabilize. During this period, participants were instructed to remain quiet and motionless. After stabilization, PPG signals were simultaneously acquired from the forehead, earlobe, and finger for 2 min (120 s). These were sampled at 40 Hz (fs = 40 Hz).
+
+Immediately after PPG acquisition, blood glucose level was measured using a GlucoQuick® Vital invasive glucometer (Diabetrics Healthcare S.A.S., Colombia). The reference BGL values ranged from 88 to 138 mg/dL, with a mean ± standard deviation of 107.40 ± 14.64 mg/dL.
 
 ## Description of subjects
 
@@ -16,13 +20,9 @@ The data were obtained ...
 The dataset is distributed in three formats:
 1. CSV (comma-separated-value) format
 2. Matlab (r) format
-3. JSON (JavaScript Object Notation) format
 ### CSV Format
 
 ### Matlab (r) format
-
-
-### JSON format
 
      
 ## Contributors
