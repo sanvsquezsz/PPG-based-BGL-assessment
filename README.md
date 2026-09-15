@@ -1,5 +1,5 @@
 # PPG-based-BGL-assessment
-This data set contains a multisite photoplethysmography (PPG) recordings from 21 subjects who were not hospitalized during data collection. This data set is intended to support the development of approaches for blood glucose level (BGL) estimation by analyzing PPG signals. The data comprises PPG recordings obtained simultaneously from three anatomical sites: the forehead, earlobe, and finger.
+This data set contains a multisite photoplethysmography (PPG) recordings from 20 subjects who were not hospitalized during data collection. This data set is intended to support the development of approaches for blood glucose level (BGL) estimation by analyzing PPG signals. The data comprises PPG recordings obtained simultaneously from three anatomical sites: the forehead, earlobe, and finger.
 
 ## When using this resource, please cite the original publication:
 S. Vasquez Salazar and E. J. Argüello-Prada, «PPG-based multisite glucose assessment dataset,» September 14st 2026. [Online]. Available: https://github.com/sanvsquezsz/PPG-based-multisite-glucose-assessment.
