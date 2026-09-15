@@ -11,6 +11,18 @@ Upon arrival at the laboratory, each volunteer was comfortably seated in a chair
 
 Immediately after PPG acquisition, blood glucose level was measured using a GlucoQuick® Vital invasive glucometer (Diabetrics Healthcare S.A.S., Colombia). The reference BGL values ranged from 88 to 138 mg/dL, with a mean ± standard deviation of 107.40 ± 14.64 mg/dL.
 
+## PPG acquisition system
+The multisite PPG acquisition system consisted of three **MAX30102** sensors. A **TCA9548A I2C multiplexer** (Texas Instruments, Dallas, TX, USA) was used to enable simultaneous operation of the three sensors, since the MAX30102 sensors share the same I2C address.
+
+The TCA9548A multiplexer was connected to an **Arduino UNO microcontroller**. The multiplexer sequentially switched between the three I2C channels, allowing the Arduino to read the PPG signal from each sensor and transmit the measurements to a Windows 10 PC through a serial connection. A MATLAB R2017b (The MathWorks Inc., Natick, MA, USA) script was developed to receive and store the three PPG waveforms for subsequent extraction and processing.
+
+## Sensor placement
+The three PPG sensors were adapted to provide a secure and stable attachment at the selected anatomical sites:
+
+* **Forehead:** the MAX30102 sensor was sewn into a fitness headband, positioning the sensor window directly against the skin.
+* **Earlobe:** the sensor was embedded in a Velcro strip wrapped around the ear. This configuration was designed to provide secure attachment while minimizing the compressive effects associated with conventional PPG ear clips.
+* **Finger:** the sensor was placed inside a commercial adult finger pulse oximeter clamp (Nellcor™, model DS-100A, with the original electronic circuitry removed).
+
 ## Description of subjects
 
 ## Background of glucose classification
