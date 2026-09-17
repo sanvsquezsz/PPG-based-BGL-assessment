@@ -54,6 +54,7 @@ The autors have no conflicts of interest to declare.
 ## References
 
 ## Files
-Total uncompressed size: [] MB.
+Total uncompressed size: 10.8 MB.
 ### Access the files
+- [Download the ZIP file](https://github.com/sanvsquezsz/PPG-based-BGL-assessment/archive/refs/heads/main.zip) (4.3 MB)
 
