@@ -38,14 +38,59 @@ The demographic and reference information for each participant is provided in th
 
 
 ## Data Files
-The dataset is distributed in three formats:
+The dataset is distributed in two formats:
 1. CSV (comma-separated-value) format
 2. Matlab (r) format
+   
 ### CSV Format
+For CSV format files, two subfolders are provided within the dataset, PPG_csv and PPG_csv_info, which contain:
+
+  - **PPG_csv:** Contains the **physiological signal data for each subject**, with the three PPG recordings organized into separate columns. Each file contains one row per sample, with the **timestamp and the PPG signals** acquired from the **forehead, earlobe, and finger**. The files are named 'PPG_subj_##.csv', where ## corresponds to the subject number. The structure of each file is:
+  ```
+  'Timestamp', 'PPG_Forehead', 'PPG_Earlobe', 'PPG_Finger'
+  ```
+  - **PPG_csv_info:** Contains the **participant information and the corresponding PPG signals**. Each subject is represented by three rows, one for each recording location: forehead, earlobe, and finger. The first eight columns contain the subject and recording information, while the remaining columns contain the PPG signal samples. The files are named 'PPG_subj_wInfo_##.csv', where ## corresponds to the subject number. The **Location field** identifies the PPG recording site (Forehead, Earlobe, or Finger), while **fs** denotes the sampling frequency and **BGL** corresponds to the blood glucose level in mg/dL. No timestamp is included in these files. The structure of each file is:
+  ```
+  'ID', 'Age', 'Gender', 'Diagnosed', 'DiabetesStatus', 'BGL', 'fs', 'Location', 'Signal' ...
+  ``` 
 
 ### Matlab (r) format
 
-     
+The *PPG_dataset.mat* file contains the following subset of the dataset in a single Matlab (r) variable named *data*. Each subject is organized as an element of a structure array containing participant information and the three PPG recordings. For each subject, the following information is provided:
+  - **info:** A structure containing the participant-related information, including ID, Age, Gender, Diagnosed, DiabetesStatus, and BGL.
+  - **PPG1:** A structure containing the PPG signal acquired from the forehead. The *signal* field contains the signal samples, *timestamp* contains the corresponding time values, *fs* contains the sampling frequency, and *Location* identifies the recording site.
+  - **PPG2:** A structure containing the PPG signal acquired from the earlobe, with the same fields as PPG1.
+  - **PPG3:** A structure containing the PPG signal acquired from the finger, with the same fields as PPG1.
+
+The general organization of the MATLAB® structure is:
+```text
+data
+├── info
+│   ├── id
+│   ├── Age
+│   ├── Gender
+│   ├── Diagnosed
+│   ├── DiabetesStatus
+│   └── BGL
+│
+├── PPG1
+│   ├── signal
+│   ├── timestamp
+│   ├── fs
+│   └── Location
+│
+├── PPG2
+│   ├── signal
+│   ├── timestamp
+│   ├── fs
+│   └── Location
+│
+└── PPG3
+    ├── signal
+    ├── timestamp
+    ├── fs
+    └── Location
+```
 ## Contributors
 For more information about the dataset, please contact the autors at:  kathalinao2602@gmail.com, erick.arguello@unimilitar.edu.co and santiago.vasquez.salazar@correounivalle.edu.co.
 
