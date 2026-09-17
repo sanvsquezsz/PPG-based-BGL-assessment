@@ -34,8 +34,22 @@ The demographic and reference information for each participant is provided in th
   - Type: participant category, defined as Non-diabetic, Prediabetic, or Diabetic (Type 2).
   - BGL: reference blood glucose level measured using the reference glucometer, expressed in mg/dL.
     
-## Background of glucose classification
+## Background of blood glucose and diabetes classification
+Blood glucose level (BGL) represents the concentration of glucose in the blood and is an important biomarker for assessing glucose metabolism. Abnormal glucose regulation is associated with metabolic disorders, particularly prediabetes and diabetes mellitus. Diabetes mellitus comprises a group of metabolic disorders characterized by persistent hyperglycemia, and its diagnosis can be established using different laboratory criteria, including fasting plasma glucose (FPG), 2-h plasma glucose during an oral glucose tolerance test (OGTT), glycated hemoglobin (HbA1c), or random plasma glucose in individuals presenting with classic symptoms of hyperglycemia [1].
 
+According to the 2026 Standards of Care in Diabetes from the American Diabetes Association (ADA), prediabetes can be identified by an HbA1c level of 5.7–6.4%, FPG of 100–125 mg/dL, or a 2-h plasma glucose value of 140–199 mg/dL during a 75-g OGTT. Diabetes is diagnosed when HbA1c is ≥6.5%, FPG is ≥126 mg/dL, or 2-h plasma glucose during an OGTT is ≥200 mg/dL. A random plasma glucose ≥200 mg/dL can also be diagnostic when accompanied by classic symptoms of hyperglycemia or hyperglycemic crisis [1].
+
+The main diagnostic criteria are summarized in the following table:
+| **Measurement** | **Normal** | **Prediabetes** | **Diabetes** |
+|:---|:---:|:---:|:---:|
+| **Fasting plasma glucose (mg/dL)** | <100 | 100–125 | ≥126 |
+| **2-h plasma glucose during OGTT (mg/dL)** | <140 | 140–199 | ≥200 |
+| **HbA1c (%)** | <5.7 | 5.7–6.4 | ≥6.5 |
+| **Random plasma glucose (mg/dL)** | — | — | ≥200* |
+
+\* Random plasma glucose ≥200 mg/dL is diagnostic in the presence of classic symptoms of hyperglycemia or hyperglycemic crisis.
+
+Conventional blood glucose assessment requires an invasive blood sample, motivating the development of non-invasive approaches for glucose monitoring. PPG is an optical technique that measures changes in blood volume and can be acquired from sites such as the finger, earlobe, and forehead. Its potential for BGL estimation has therefore been investigated as an alternative to conventional measurements. In this context, the present dataset combines PPG recordings from these three sites with reference BGL measurements obtained using a commercial glucometer from individuals with and without a previous diagnosis of type 2 diabetes. Participants were instructed to refrain from eating or drinking for at least 2 h before the measurements; therefore, the recorded BGL values should not be interpreted as fasting glucose measurements for diagnostic purposes.
 
 ## Data Files
 The dataset is distributed in two formats:
@@ -96,7 +110,9 @@ For more information about the dataset, please contact the autors at:  kathalina
 
 ## Conflicts of interest
 The autors have no conflicts of interest to declare.
+
 ## References
+1. American Diabetes Association Professional Practice Committee for Diabetes (2026). 2. Diagnosis and classification of diabetes: Standards of Care in Diabetes—2026. Diabetes Care, 49(Supplement_1), S27–S49. https://doi.org/10.2337/dc26-S002
 
 ## Files
 Total uncompressed size: 10.8 MB.
