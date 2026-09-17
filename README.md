@@ -26,11 +26,12 @@ The three PPG sensors were adapted to provide a secure and stable attachment at 
 ## Description of subjects
 20 subjects participated in the study. All volunteers were fully informed about the experimental procedure and provided written informed consent. The study included healthy (n = 15), prediabetic (n = 1), and diabetic (n = 4) adults aged 18 years or older. The participants' ages ranged from 21 to 76 years, with a mean ± standard deviation of 40.04 ± 17.56 years. Participants were included regardless of ethnicity, race, or gender. The male-to-female ratio in the sample was 1:1
 
-The demographic and reference information for each participant is provided in the MS Excel file, "[filename].xlsx", and is summarized as follows:
+The demographic and reference information for each participant is provided in the MS Excel file, "PPG_info_data.xlsx", and is summarized as follows:
   - Record #: name of the record associated with each individual, 'PPG_subj_##" (where ## is the subject number).
-  - Age: range between 21 - 76 years old.
   - Gender: Male or Female.
-  - Category: participant category, defined as Non-diabetic, Prediabetic, or Diabetic (Type 2).
+  - Age: range between 21 - 76 years old.
+  - Diagnosed: 'Y' for diagnosed, and 'N' for undiagnosed for any type of diabetes.
+  - Type: participant category, defined as Non-diabetic, Prediabetic, or Diabetic (Type 2).
   - BGL: reference blood glucose level measured using the reference glucometer, expressed in mg/dL.
     
 ## Background of glucose classification
@@ -46,7 +47,7 @@ The dataset is distributed in three formats:
 
      
 ## Contributors
-For more information about the dataset, please contact the autors at:  santiago.vasquez.salazar@correounivalle.edu.co and erick.arguello@unimilitar.edu.co.
+For more information about the dataset, please contact the autors at:  kathalinao2602@gmail.com, erick.arguello@unimilitar.edu.co and santiago.vasquez.salazar@correounivalle.edu.co.
 
 ## Conflicts of interest
 The autors have no conflicts of interest to declare.
