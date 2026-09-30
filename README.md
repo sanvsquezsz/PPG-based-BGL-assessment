@@ -105,6 +105,11 @@ data
     ├── fs
     └── Location
 ```
+
+### Scripts
+
+A folder named **"Scripts"** is also included in the dataset repository. This folder contains the MATLAB® scripts (`.m` files) used during the development and processing of the project. The scripts are provided to support the processing, analysis, and handling of the PPG recordings and to facilitate reproducibility of the reported work.
+
 ## Contributors
 For more information about the dataset, please contact the autors at:  kathalinao2602@gmail.com, erick.arguello@unimilitar.edu.co and santiago.vasquez.salazar@correounivalle.edu.co.
 
